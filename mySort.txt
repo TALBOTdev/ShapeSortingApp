@@ -1,0 +1,15 @@
+I chose Gnome Sort as my sorting algorithm.
+
+Gnome sort is inspired by the thought of a garden Gnome sorting his flower pots (believe me, the charming image is the main reason I chose this sort).
+
+Gnome sort is similar in execution to Insertion sort, with the main difference being that Gnome Sort focuses on swapping element adjacent to each other.
+There is a line of flower pots, and the Gnome stand beside the second pot.
+
+	> He takes a step forward if the pot before and the pot after are in the correct position
+	> If the pots behind him and in front of him are in the wrong order, he swaps them and takes a step back
+		> He steps back until he is at the front of the line, when there is no pot behind him, he steps forward again
+	> If he makes it to the end of the line of pots, the list is sorted!
+
+The Time Complexity of Gnome Sort is O(n^2), due to the face the Gnome can go forwards and backwards.
+
+https://www.geeksforgeeks.org/gnome-sort-a-stupid-one/
