@@ -2,7 +2,7 @@ DRIVER README
 
 MADE BY:
 --------------------------
-Ben Talbot (000791397)
+Ben Talbot
 Feb 27, 2020
 ---------------------------
 
