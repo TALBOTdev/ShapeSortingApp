@@ -23,7 +23,10 @@ Open a Command Prompt window and type:
 java -jar */filepath/*
 
 The easiest way to do this is to drag the file into the program.
-The filepath will automatically be pasted.
+The filepath will automatically be pasted. 
+After the filepath is specified, refer to the instructions below for information on how to structure a sort query. This query should be added after the filepath.
+
+IT IS RECOMMENDED that you use the polygon lists inside the RES folder. Any file that you do use should be in the same folder as the JAR file.
 
 ---------------------------
 *****INSTRUCTIONS*****
@@ -34,7 +37,7 @@ These steps are numbered for convenience, but can be executed in any order.
 
 1.) *SPECIFY FILEPATH OF SORTABLE FILE*
 The filepath of the file to be sorted must be specified. All file specifications begin with the letter "f",
-followed by the filepath of the file
+followed by the filepath of the file. The files in the RES folder should be used.
 
 EX: -fpolyfor1.txt
 
@@ -57,7 +60,9 @@ This will send the selection to the opponent client and if they other player is 
 will be displayed on both clients.
 
 
-A complete query may look something like: -fsortFile.txt -tA -Sm
+A sort query may look something like: -fsortFile.txt -tA -Sm
+
+A complete query you would use in the Sort.jar may look something like: java -jar Sort.jar -fpolyfor1.txt -tA -Sm
 
 
 If the file is found and is compatable, the program will run and return every thousandth entry, including the 
